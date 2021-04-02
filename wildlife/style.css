@@ -222,7 +222,7 @@ h2{
   align-items: flex-end;
   justify-content: center;
   font-family: Open Sans;
-  font-size: 24px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
@@ -240,6 +240,80 @@ h2{
   justify-content: center;
 }
 
-.images{
-  
+.middle{
+  display: flex;
+  justify-content: center;
 }
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 360px;
+  width: 1200px ;
+
+}
+
+.image1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(Rectangle.jpg);
+  height: 360px;
+  width: 300px;
+}
+
+.image2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(Rectanglee.jpg);
+  height: 360px;
+  width: 300px;
+}
+
+.image3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 360px;
+  width: 300px;
+  background-image: url(Rectangleee.jpg);
+}
+
+.SVG:hover{
+  transform: rotate(720deg);
+  transition: 0.7s;
+  transform: scale(-1);
+}
+
+.SVG:active{
+  transform:scaleX(-1.5);
+  transition: 0.1s;
+}
+h4 {
+  color:white;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+small {
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(247, 247, 247, 1);
+}
+
+.textimage {
+  margin-bottom: 40px;
+}
+
