@@ -407,7 +407,7 @@ h3{
   align-items: center;
   display: flex;
   height: 359px;
-  width: 480px;
+  width: 500px;
 }
 
 .menu2{
@@ -439,7 +439,7 @@ h3{
 }
 
 .wildlife-footer5{
-  width: 480px;
+  width: 500px;
   height: 359px;
   display: flex;
   justify-content: center;
@@ -454,4 +454,29 @@ h3{
   font-family: Roboto;
   font-size: 32px;
   border-spacing: 100px ;
+}
+
+.wildlife-footer6{
+  display: flex;
+  width: 500px;
+  height: 360px;
+  justify-content: center;
+}
+.ulLinks2{
+  width: 258px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.llinks:hover{
+  transform: rotate(720deg);
+  transition: 0.7s;
+  transform: scale(-1);
+}
+
+.llinks2:active{
+  transform:scaleX(-1.5);
+  transition: 0.1s;
 }
