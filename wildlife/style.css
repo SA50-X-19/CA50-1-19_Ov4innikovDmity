@@ -21,6 +21,7 @@
 .header {
   display: flex;
   justify-content: space-around;
+  height: 47px;
 }
 
 .menu{
@@ -214,7 +215,7 @@
 
 .wildlife-articles2{
   width: 1500px;
-  height: 1368px;
+  height: 1168px;
   background: #CCCCCC;
 }
 
@@ -303,6 +304,7 @@ h2{
   transform:scaleX(-1.5);
   transition: 0.1s;
 }
+
 h4 {
   color:white;
   font-family: Open Sans;
@@ -384,4 +386,97 @@ h3{
 
 .null{
   height: 170px;
+}
+
+.wildlife-footer{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #02160b;
+}
+
+.wildlife-footer2{
+  display: flex;
+  width: 1500px;
+  height: 359px;
+  background-image:url("Rektangle.jpg");
+}
+
+.wildlife-footer3{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 359px;
+  width: 500px;
+}
+
+.menu2{
+  font-size: 32px;
+  text-decoration: none;
+  font-family: Roboto;;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.logo3{
+  width: 155px;
+  height: 60px;
+}
+
+.lleft{
+  width: 69px;
+  height: 60px;
+}
+
+.wildlife-footer4{
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.wildlife-footer5{
+  width: 500px;
+  height: 359px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ulLinks{
+  width: 460px;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  font-family: Roboto;
+  font-size: 32px;
+  border-spacing: 100px ;
+}
+
+.wildlife-footer6{
+  display: flex;
+  width: 500px;
+  height: 360px;
+  justify-content: center;
+}
+.ulLinks2{
+  width: 258px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.llinks:hover{
+  transform: rotate(720deg);
+  transition: 0.7s;
+  transform: scale(-1);
+}
+
+.llinks2:active{
+  transform:scaleX(-1.5);
+  transition: 0.1s;
 }
